@@ -1,0 +1,19 @@
+# Dependencies and generated build output
+**/node_modules/
+**/dist/
+**/coverage/
+**/.vite/
+
+# Runtime data, logs, and temporary files
+backend/data/*.json
+backend/data/*.tmp
+*.log
+npm-debug.log*
+
+# Local environment files (keep fictional templates)
+.env
+.env.*
+!.env.example
+
+# Generated root-level screenshots; reviewed QA evidence stays under docs/qa-evidence/
+/screenshot-*.png

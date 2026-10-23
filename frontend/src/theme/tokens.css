@@ -1,0 +1,73 @@
+/* Semantic design tokens — LowBand Africa Telecom & Connectivity Observatory */
+:root,
+[data-theme="dark"] {
+  color-scheme: dark;
+  --canvas-rgb: 11 15 23;
+  --ink-rgb: 17 24 39;
+  --surface-rgb: 24 33 47;
+  --surface-raised-rgb: 33 45 64;
+  --foreground-rgb: 241 245 249;
+  --muted-rgb: 148 163 184;
+  --accent-rgb: 249 115 22;
+  --accent-strong-rgb: 234 88 12;
+  --accent-on-ink-rgb: 251 146 60;
+  --accent-soft-rgb: 253 186 116;
+  --on-ink-rgb: 248 250 252;
+  --border-rgb: 51 65 85;
+  --danger-rgb: 248 113 113;
+  --warning-rgb: 251 191 36;
+  --url-border: rgb(255 255 255);
+
+  --color-canvas: rgb(var(--canvas-rgb));
+  --color-ink: rgb(var(--ink-rgb));
+  --color-surface: rgb(var(--surface-rgb));
+  --color-surface-raised: rgb(var(--surface-raised-rgb));
+  --color-foreground: rgb(var(--foreground-rgb));
+  --color-muted: rgb(var(--muted-rgb));
+  --color-accent: rgb(var(--accent-rgb));
+  --color-accent-strong: rgb(var(--accent-strong-rgb));
+  --color-accent-on-ink: rgb(var(--accent-on-ink-rgb));
+  --color-accent-soft: rgb(var(--accent-soft-rgb));
+  --color-on-ink: rgb(var(--on-ink-rgb));
+  --color-border: rgb(var(--border-rgb));
+  --color-danger: rgb(var(--danger-rgb));
+  --color-warning: rgb(var(--warning-rgb));
+  --shadow-soft: 0 16px 40px rgb(0 0 0 / 0.35);
+  --shadow-panel: 0 24px 50px -12px rgb(0 0 0 / 0.45);
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+  --canvas-rgb: 248 250 252;
+  --ink-rgb: 15 23 42;
+  --surface-rgb: 255 255 255;
+  --surface-raised-rgb: 241 245 249;
+  --foreground-rgb: 15 23 42;
+  --muted-rgb: 100 116 139;
+  --accent-rgb: 234 88 12;
+  --accent-strong-rgb: 194 65 12;
+  --accent-on-ink-rgb: 251 146 60;
+  --accent-soft-rgb: 254 215 170;
+  --on-ink-rgb: 255 255 255;
+  --border-rgb: 226 232 240;
+  --danger-rgb: 220 38 38;
+  --warning-rgb: 217 119 6;
+  --url-border: rgb(0 0 0);
+
+  --color-canvas: rgb(var(--canvas-rgb));
+  --color-ink: rgb(var(--ink-rgb));
+  --color-surface: rgb(var(--surface-rgb));
+  --color-surface-raised: rgb(var(--surface-raised-rgb));
+  --color-foreground: rgb(var(--foreground-rgb));
+  --color-muted: rgb(var(--muted-rgb));
+  --color-accent: rgb(var(--accent-rgb));
+  --color-accent-strong: rgb(var(--accent-strong-rgb));
+  --color-accent-on-ink: rgb(var(--accent-on-ink-rgb));
+  --color-accent-soft: rgb(var(--accent-soft-rgb));
+  --color-on-ink: rgb(var(--on-ink-rgb));
+  --color-border: rgb(var(--border-rgb));
+  --color-danger: rgb(var(--danger-rgb));
+  --color-warning: rgb(var(--warning-rgb));
+  --shadow-soft: 0 16px 36px -8px rgb(15 23 42 / 0.08);
+  --shadow-panel: 0 20px 45px -12px rgb(15 23 42 / 0.12);
+}

@@ -1,0 +1,43 @@
+{
+  "name": "@lowband/analysis-engine",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Moteur d'analyse Playwright/Chromium de LowBand Africa",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:unit": "vitest run test/unit",
+    "test:integration": "vitest run test/integration",
+    "analyze": "tsx src/cli.ts",
+    "analyze:built": "node dist/cli.js"
+  },
+  "dependencies": {
+    "ipaddr.js": "^2.5.0",
+    "playwright": "^1.64.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.5"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}
