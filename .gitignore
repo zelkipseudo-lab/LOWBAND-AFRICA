@@ -17,3 +17,6 @@ npm-debug.log*
 
 # Generated root-level screenshots; reviewed QA evidence stays under docs/qa-evidence/
 /screenshot-*.png
+
+# Internal agent coordination instructions (not part of the application release)
+/agents/
